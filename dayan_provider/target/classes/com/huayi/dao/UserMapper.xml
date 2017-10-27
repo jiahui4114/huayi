@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.huayi.dao.UserMapper">  
+    <!-- 根据传入的Id值，到数据库中查询记录 -->  
+    <select id="getUser"  resultType="com.huayi.entity.User">  
+        SELECT  
+        * 
+        FROM t_user
+    </select>  
+</mapper> 
