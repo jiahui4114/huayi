@@ -20,6 +20,7 @@ public class Usercontroller {
 		mod.addAttribute("user", userService.getUser());
 		System.out.println("1111111111");
 		System.out.println("222222222222222");
+		System.out.println("33333333333");
 		return "list";
 	}
 }
