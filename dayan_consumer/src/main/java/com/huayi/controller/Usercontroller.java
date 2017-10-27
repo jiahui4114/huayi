@@ -18,7 +18,7 @@ public class Usercontroller {
 	public String getUser(Model mod){
 		
 		mod.addAttribute("user", userService.getUser());
-		
+		System.out.println("1111111111");
 		return "list";
 	}
 }
